@@ -1,0 +1,36 @@
+.nav__bar {
+  position: absolute;
+  display: flex;
+  background-color: rgb(53, 53, 53);
+  width: 100%;
+  height: 80px;
+  box-shadow: 1px 2px 5px rgb(123, 0, 0);
+}
+
+.list__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  /* gap: 5rem; */
+  width: 100%;
+}
+
+.logo {
+  width: 100px;
+  height: 75px;
+}
+
+.links {
+  color: white;
+  font-size: 1.3rem;
+  font-family: fantasy;
+}
+
+.links:hover {
+  color: rgb(194, 194, 194);
+}
+
+.links:active {
+  transform: scale(0.8);
+}

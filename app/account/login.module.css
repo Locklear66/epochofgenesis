@@ -1,0 +1,51 @@
+/* Login page CSS */
+
+.form__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 84vh;
+    margin: 0 auto;
+  }
+  
+  .login__wrapper{
+     display: flex;
+     flex-direction: column;
+     margin-right: 12px;
+    }
+    
+    .email__input{
+      margin: 8px 0px 8px 0px;
+      padding: 8px;
+      border: 1px solid black;
+      border-radius: 25px;
+      background-color: #f0efef;
+    }
+    
+    .password__input{
+      margin: 0px 0 8px 0;
+      padding: 8px;
+      border: 1px solid black;
+      border-radius: 25px;
+      background-color: #f0efef;
+    }
+    
+    .login__btn{
+      margin: 0px 0 8px 0;
+      padding: 8px;
+      border: 1px solid black;
+      border-radius: 25px;
+      background-color: #f0efef;
+      cursor: pointer;
+    }
+    
+    .login__btn:hover{
+      background-color: rgb(123, 0, 0);
+    }
+  
+    .logout__wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
