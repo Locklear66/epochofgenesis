@@ -6,8 +6,8 @@ import background from "../public/background.png";
 
 export default function Home() {
   return (
-    <main> 
-      <Image className={styles.img} src={background}></Image>
+    <main className={styles.main}> 
+      {/* <Image className={styles.img} src={background}></Image> */}
       <div className={styles.header}>
         <h1 className={styles.title}>
           Welcome to the Epoch of Genesis a Sandbox MMO set during the Pre-Flood

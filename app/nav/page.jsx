@@ -5,42 +5,60 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-      <div className={NavCss.nav__bar}>
-        <ul className={NavCss.list__wrapper}>
-        <Image className={NavCss.logo} src={logo} alt="Game Logo"/>
+    <div className={NavCss.nav__bar}>
+      <ul className={NavCss.list__wrapper}>
+
+        <div className={NavCss.link__box}>
           <li className={NavCss.list}>
             <Link className={NavCss.links} href="/">
               Homepage
             </Link>
           </li>
-          <li className={NavCss.list}>
-            <Link className={NavCss.links} href="#">
-              Equipment
-            </Link>
-          </li>
-          
-          <li className={NavCss.list}>
-            <Link className={NavCss.links} href="#">
-              Spells
-            </Link>
-          </li>
-        
-          <li className={NavCss.list}>
-            <Link className={NavCss.links} href="#">
-              Skills
-            </Link>
-          </li>
-          <li className={NavCss.list}>
-            <Link className={NavCss.links} href="#">
-              Guides
-            </Link>
-          </li>
-          <li className={NavCss.list}>
-            <Link className={NavCss.links} href="/account">
-              Account
-            </Link>
-          </li>
-        </ul>
-      </div>
+        </div>
+
+        <div className={NavCss.link__box}>
+        <li className={NavCss.list}>
+          <Link className={NavCss.links} href="#">
+            Equipment
+          </Link>
+        </li>
+        </div>
+
+        <div className={NavCss.link__box}>
+        <li className={NavCss.list}>
+          <Link className={NavCss.links} href="#">
+            Spells
+          </Link>
+        </li>
+        </div>
+
+        <Image className={NavCss.logo} src={logo} alt="Game Logo" />
+
+        <div className={NavCss.link__box}>
+        <li className={NavCss.list}>
+          <Link className={NavCss.links} href="#">
+            Skills
+          </Link>
+        </li>
+        </div>
+
+        <div className={NavCss.link__box}>
+        <li className={NavCss.list}>
+          <Link className={NavCss.links} href="/merch">
+            Merch
+          </Link>
+        </li>
+        </div>
+
+        <div className={NavCss.link__box}>
+        <li className={NavCss.list}>
+          <Link className={NavCss.links} href="/account">
+            Account
+          </Link>
+        </li>
+        </div>
+
+      </ul>
+    </div>
   );
 }
