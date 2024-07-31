@@ -1,11 +1,14 @@
 import React from 'react'
 import merchcss from './merch.module.css'
+import Image from "next/image"
+import tshirt from '/public/tshirt.jpeg'
 
 export default function merch() {
   return (
     <main className={merchcss.main}>
         <div className={merchcss.box}>
-            Hello world
+          <Image className={merchcss.image} src={tshirt}/>
+            $60
         </div>
     </main>
   )
