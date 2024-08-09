@@ -54,3 +54,17 @@
 .links:active {
   transform: scale(0.8);
 }
+
+/* Nav menu when small */
+
+
+
+
+/* Media */
+
+@media (max-width: 768px) {
+
+  .nav__bar{
+    display: none;
+  }
+}
