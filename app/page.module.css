@@ -141,6 +141,14 @@
 /* Media */
 
 @media (max-width: 768px){
+
+  .title {
+    text-align: center;
+    margin: 120px 12px 0px 12px;
+    color: rgb(236, 236, 236);
+    font-family: sans-serif;
+  }
+
   .play__now {
     margin: 6px;
     border: 1px solid orange;
