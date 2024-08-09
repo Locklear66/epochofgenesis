@@ -49,6 +49,10 @@ export default function Home() {
       </div>
       {/* VIDEO PLAYER */}
       <div className={styles.video__container}>
+        <p className={styles.video__para}>
+          Check out the latest on YouTube. Our coders are hard at work making
+          sure the game is up to date and fun to play.
+        </p>
         <iframe
           className={styles.video}
           width="560"
@@ -59,10 +63,7 @@ export default function Home() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
-        <p className={styles.video__para}>
-          Check out the latest on YouTube. Our coders are hard at work making
-          sure the game is up to date and fun to play.
-        </p>
+        
       </div>
     </main>
   );

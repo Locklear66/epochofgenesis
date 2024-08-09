@@ -120,8 +120,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 100px;
-
 }
 
 .video{
@@ -138,4 +136,42 @@
   text-align: center;
   width: 100%;
   max-width: 600px;
+}
+
+/* Media */
+
+@media (max-width: 768px){
+  .play__now {
+    margin: 6px;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 12px 15px 6px 15px;
+    font-size: 1rem;
+  }
+
+  .join__discord {
+    margin: 6px;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 12px 15px 6px 15px;
+    font-size: 1rem;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    font-family: fantasy;
+  }
+
+  .video__container{
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+  .video__para{
+  font-size: 1rem;
+  }
+
+  .video{
+    max-width: 350px;
+  }
+
+
 }
