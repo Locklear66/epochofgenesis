@@ -5,7 +5,7 @@ import background from "../public/background.png";
 import discord from "../public/discord.png";
 import dragonslayer from "../public/dragonslayer.png";
 import openingTutorial from "../public/openingTutorial.png";
-import discord2 from "../public/discord2.png"
+import discord2 from "../public/discord2.png";
 
 export default function Home() {
   return (
@@ -50,20 +50,41 @@ export default function Home() {
       {/* VIDEO PLAYER */}
       <div className={styles.video__container}>
         <p className={styles.video__para}>
-          Check out the latest on YouTube. Our coders are hard at work making
-          sure the game is up to date and fun to play.
+          Check out the latest on{" "}
+          <Link
+            className={styles.yt__link}
+            href="https://youtube.com/@epochofgenesis-official6608?si=i-C_P9MU2U5JKG-Z"
+            target="_blank"
+          >
+            YouTube
+          </Link>
+          . Our coders are hard at work making sure the game is up to date and
+          fun to play.
         </p>
         <iframe
           className={styles.video}
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/kbpiqrLNKFI"
+          src="https://www.youtube.com/embed/__9k6maDBuY?si=5tKx9RGmnLDSSXgD"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
-        
+      </div>
+      <div className={styles.video__container}>
+        <iframe
+          className={styles.video}
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/YVvw8GenCrY?si=ufkXpLShT3q-iIHA"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
       </div>
     </main>
   );

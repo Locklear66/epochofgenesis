@@ -58,76 +58,78 @@
 }
 
 .join__discord {
-    margin: 6px;
-    border: 3px solid orange;
-    border-radius: 20px;
-    padding: 6px 12px 0px 12px;
-    font-size: 1.3rem;
-    background-color: rgb(53, 53, 53);
-    color: white;
-    font-family: fantasy;
+  margin: 6px;
+  border: 3px solid orange;
+  border-radius: 20px;
+  padding: 6px 12px 0px 12px;
+  font-size: 1.3rem;
+  background-color: rgb(53, 53, 53);
+  color: white;
+  font-family: fantasy;
 }
 
-.play__now:hover{
-    transform:translateY(4px);
-    cursor: pointer;
+.play__now:hover {
+  transform: translateY(4px);
+  cursor: pointer;
 }
 
-.join__discord:hover{
-    transform:translateY(4px);
-    cursor: pointer;
+.join__discord:hover {
+  transform: translateY(4px);
+  cursor: pointer;
 }
 
-.pic__container{
+.pic__container {
   display: flex;
 }
 
-.pic__btn{
+.pic__btn {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 8rem;
 }
 
-.pic__container{
+.pic__container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   justify-items: center;
   align-items: center;
   margin: 20px 20px 20px 20px;
 }
 
-.img1{
-  border: 2px solid black;
-  border-radius: 5%;
+.img1 {
+  border: 1px solid black;
   margin-top: 20px;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
 }
 
-.img2{
-  border: 2px solid black;
-  border-radius: 5%;
+.img2 {
+  border: 1px solid black;
   margin-top: 20px;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
 }
 
 /* Video player and components */
 
-.video__container{
+.video__container {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+  margin-top: 100px;
 }
 
-.video{
-  border-radius: 12px;
+.video {
   width: 600px;
+  border: 1px solid black;
 }
 
-.video__para{
+.video__para {
   color: white;
   margin: 36px;
   padding: 12px;
@@ -138,10 +140,17 @@
   max-width: 600px;
 }
 
+.yt__link{
+  color: white;
+}
+
+.yt__link:hover{
+  color: aqua;
+}
+
 /* Media */
 
-@media (max-width: 768px){
-
+@media (max-width: 879px) {
   .title {
     text-align: center;
     margin: 120px 12px 0px 12px;
@@ -169,18 +178,16 @@
     font-family: sans-serif;
   }
 
-  .video__container{
-  display: flex;
-  flex-wrap: wrap;
+  .video__container {
+    display: flex;
+    flex-wrap: nowrap;
   }
 
-  .video__para{
-  font-size: 1rem;
+  .video__para {
+    font-size: 1rem;
   }
 
-  .video{
+  .video {
     max-width: 350px;
   }
-
-
 }
