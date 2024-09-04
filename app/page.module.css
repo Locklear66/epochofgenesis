@@ -6,10 +6,6 @@
   z-index: -1;
 }
 
-/* .main{
-  background-color: black;
-} */
-
 .header {
   padding: 12px 12px 12px 12px;
 }
@@ -38,13 +34,6 @@
 }
 
 /* Play and discord buttons */
-
-/* .btns {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 32px;
-} */
 
 .play__now {
   margin: 6px;
