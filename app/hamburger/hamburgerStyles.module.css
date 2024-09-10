@@ -64,6 +64,10 @@
     text-decoration: none;
     font-size: 18px;
   }
+
+  .play{
+    background-color: rgb(123, 0, 0);
+  }
   
   /* Optional: Adding animation to the hamburger bars */
   .hamburger.open .bar:nth-child(1) {
