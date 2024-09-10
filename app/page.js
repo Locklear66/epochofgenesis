@@ -10,7 +10,7 @@ import discord2 from "../public/discord2.png";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Image className={styles.img} src={background}></Image>
+      <Image className={styles.img} src={background} alt={background}></Image>
       <div className={styles.header}>
         <h1 className={styles.title}>
           Welcome to the Epoch of Genesis a Sandbox MMO set during the Pre-Flood

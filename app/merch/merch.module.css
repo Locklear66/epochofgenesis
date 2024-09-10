@@ -5,18 +5,17 @@
 .container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .box{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     max-width: 100%;
     height: auto;
-    margin: 90px 20px 20px 20px;
+    margin: 90px 0px 20px 100px;
     border: 1px solid rgb(86, 86, 86);
     padding: 10px;
     border-radius: 12px;
